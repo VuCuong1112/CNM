@@ -1,0 +1,33 @@
+<%include header%>
+		<div class="container">
+		  	
+		  		<form method="POST" action="/formadd" enctype="multipart/form-data" >
+                   <fieldset class="form-group">
+                     <label for="formGroupExampleInput">Tựa sách</label>
+                     <input type="text" style="width:40%" class="form-control" id="formGroupExampleInput" placeholder="Kim chỉ nam của học sinh" name="tuasach">
+                   </fieldset>
+                   <fieldset class="form-group">
+                     <label for="formGroupExampleInput2">Tác giả</label>
+                     <input type="text" style="width:40%" class="form-control" id="formGroupExampleInput2" placeholder="Nguyễn Hiền Lê" name="tacgia">
+                   </fieldset>
+                   <fieldset class="form-group">
+                     <label for="formGroupExampleInput3">Giá bán</label>
+                     <input type="text" style="width:40%" class="form-control" id="formGroupExampleInput3" placeholder="50.000VND" name="giaban">
+                   </fieldset>
+                   <div class="form-group">
+					    <label for="exampleInputFile">Hình ảnh minh hoạ</label>
+					    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" style="width:40%" name="hinhanh">
+					    <ion-icon name="add-circle-outline" size="small"</ion-icon>
+					  
+					</div>
+                   <fieldset class="form-group">
+                     <label for="formGroupExampleInput5">Ghi chú</label>
+                     <br/>
+                     <textarea id="formGroupExampleInput5" rows="4" style="width:40%" name="ghichu"></textarea>
+                   </fieldset>
+                   <button type="submit" class="btn btn-primary">Huỷ</button>
+                   <button type="submit" class="btn btn-primary">Thêm</button>
+                 </form>
+		  	
+		</div>
+<%include footer%>

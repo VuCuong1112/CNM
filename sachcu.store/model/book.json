@@ -1,0 +1,100 @@
+{
+	"ID":1,
+	"NAME":"Danh sach book",
+	"Book":[
+		{
+			"BookID":1,
+			"BookName":"Quẳng Gánh Lo Đi Và Vui Sống",
+			"BookAuthor":"Nguyễn Hiến Lê",
+			"BookPrice":"20.000đ",
+			"Status":"Sách đã qua sử dụng 3 tháng, bìa hơi bị nhăn, có môt số trang bị gấp mép",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book1.img1.jpg",
+			"SubPhoto":["https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book1.img2.jpg","https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book1.img3.jpg"]
+		},
+		{
+			"BookID":2,
+			"BookName":"Khi Hơi Thở Hóa Thinh Không",
+			"BookAuthor":"Paul Kalanithi",
+			"BookPrice":"70.500₫",
+			"Status":"Sách còn mới 95%, không bị rách, không dính mực hoặc tẩy xoá",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book2.img1.jpg",
+			"SubPhoto":["https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book2.img2.jpg","https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book2.img3.jpg"]
+		},
+		{
+			"BookID":3,
+			"BookName":"Truyện Thúy Kiều (Tái Bản)",
+			"BookAuthor":"Nguyễn Du",
+			"BookPrice":"48.980₫",
+			"Status":"Sách mới sử dụng 1 lần, không bị rách, mực in rõ không bị nhoè",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book3.img1.jpg",
+			"SubPhoto":[]
+		},
+		{
+			"BookID":4,
+			"BookName":"Bội Tình - Thơ",
+			"BookAuthor":"Vanness Uyên (Mỡ)",
+			"BookPrice":"100.000₫",
+			"Status":"Sách sử dụng được 1 năm, một số trang bị rách",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book4.img1.jpg",
+			"SubPhoto":["https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book4.img2.jpg","https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book4.img3.jpg"]
+		},
+		{
+			"BookID":5,
+			"BookName":"Người Lớn Không Khóc (Tái Bản)",
+			"BookAuthor":"Hamlet Trương",
+			"BookPrice":"51.350₫",
+			"Status":"Sách đã qua sử dụng một vài lần",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book5.img1.jpg",
+			"SubPhoto":[]
+		},
+		{
+			"BookID":6,
+			"BookName":"Bí Mật Dinh Dưỡng Cho Sức Khỏe Toàn Diện",
+			"BookAuthor":"Thomas M. Campbell II",
+			"BookPrice":"190.000₫",
+			"Status":"Sách đã qua sử dụng một vài lần, còn mới nguyên vẹn",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book6.img1.jpg",
+			"SubPhoto":["https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book6.img2.jpg","https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book6.img3.jpg"]
+		},
+		{
+			"BookID":4,
+			"BookName":"Bội Tình - Thơ",
+			"BookAuthor":"Vanness Uyên (Mỡ)",
+			"BookPrice":"100.000₫",
+			"Status":"Sách sử dụng được 1 năm, một số trang bị rách",
+			"MainPhoto":"https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book4.img1.jpg",
+			"SubPhoto":["https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book4.img2.jpg","https://s3-us-west-2.amazonaws.com/sachcu.store/sach/book4.img3.jpg"]
+		}
+	],
+	"ID":2,
+	"NAME":"Danh sach user",
+	"Users":[
+		{
+			"UserID":1,
+			"UserName":"vucuong1112",
+			"UserPassword":"123456",
+			"UserLocation":"12 Nguyễn Văn Bảo, P4, Gò Vấp, TP HCM",
+			"UserPhoneNumber":"0966072266",
+			"UserImg":"https://s3-us-west-2.amazonaws.com/sachcu.store/users/avt1.jpg",
+			"BookSell":[1,6]
+		},
+		{
+			"UserID":2,
+			"UserName":"khoadang",
+			"UserPassword":"123456",
+			"UserLocation":"12 Nguyễn Văn Bảo, P4, Gò Vấp, TP HCM",
+			"UserPhoneNumber":"0999657262",
+			"UserImg":"https://s3-us-west-2.amazonaws.com/sachcu.store/users/avt2.jpg",
+			"BookSell":[2,3]
+		},
+		{
+			"UserID":3,
+			"UserName":"tuanminh",
+			"UserPassword":"123456",
+			"UserLocation":"12 Nguyễn Văn Bảo, P4, Gò Vấp, TP HCM",
+			"UserPhoneNumber":"09636372233",
+			"UserImg":"https://s3-us-west-2.amazonaws.com/sachcu.store/users/avt3.jpg",
+			"BookSell":[4,5]
+		}
+	]
+}
